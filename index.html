@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something about HTML</title>
+</head>
+<body>
+    <h1>Some cool stuff about HTML tags</h1>
+    <img src="img/pic.png" alt="HTML picture"  width="300">
+    <p>We learn HTML to start building websites and this is a core skill to start web development.</p>
+    <h4>When you are ready - take our <a href="#quiz">short quiz</a> below</h4>
+    <p>There is a trio of Web Developement tools:</p>
+    <ol>
+        <li>HTML - for structure</li>
+        <li>CSS - for styling</li>
+        <li>JavaScript - for interaction</li>
+    </ol>
+    <p>Each of them gives a specific functionality. But we are going to fovus on HTML tags which are just 
+     building block for the web page.</p>
+    <h2>Main sematic tags:</h2>
+    <ul>
+        <li>head</li>
+        <li>body</li>
+        <li>header</li>
+        <li>main</li>
+        <li>footer</li>
+    </ul>
+    <p>To add actual content we use certain tags which can help us to display content as we want it to do:</p>
+    <ul>
+        <li>h1-h6 - to add a heading</li>
+        <li>p - to display a bunch of text</li>
+        <li>img - for displaying pictires</li>
+        <li>a - for the link to other website or to jump to another section of current page</li>
+        <li>input - different forms of fields where users can enter their data</li>
+        <li>div - to create a logical block of our content built with other tags</li>
+    </ul>
+
+    <h2 id="quiz">Short Quiz:</h2>
+    <form action="submit">
+    <p>Can you change color with the help of HTML:</p>
+    <label for="yes">
+        <input id="yes" type="radio" name="color-change" required value="yes">Yes
+    </label>
+    <label for="no">
+        <input id="no" type="radio" name="color-change" required value="no">No
+    </label>
+
+    <p>Which tags are for semantic, not for diplaying content:</p>
+    <label for="h1-h6">
+        <input id="h1-h6" type="checkbox" name="semantic-tags" value="h1-h6">h1-h6
+    </label>
+    <label for="body">
+        <input id="body" type="checkbox" name="semantic-tags" value="body">body
+    </label>
+    <label for="p">
+        <input id="p" type="checkbox" name="semantic-tags" value="p">p
+    </label>
+    <label for="a">
+        <input id="a" type="checkbox" name="semantic-tags" value="a">a
+    </label>
+    <label for="footer">
+        <input id="footer" type="checkbox" name="semantic-tags" value="footer">footer
+    </label>
+    <label for="main">
+        <input id="main" type="checkbox" name="semantic-tags" value="main">main
+    </label>
+    <p>Submit your answer when ready - <button type="submit">Submit</button></p>
+    
+</form>
+
+<form action="">
+    <p>If you have troubles with tags - just search the unknown one!</p>
+    <input type="text" placeholder="Enter tag here">
+    <button type="submit">Find Now!</button>
+</form>
+
+</body>
+</html>
